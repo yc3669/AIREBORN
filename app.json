@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/resume/resume",
+    "pages/classify/classify",
+    "pages/page/history/history"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#B0C4DE",
+    "navigationBarTitleText": "空降平台",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "assets/icons/home.png",
+        "selectedIconPath": "assets/icons/home_active.png"
+      },
+      {
+        "pagePath": "pages/classify/classify",
+        "text": "分类",
+        "iconPath": "assets/icons/classify.png",
+        "selectedIconPath": "assets/icons/classify_active.png"
+      },
+      {
+        "pagePath": "pages/resume/resume",
+        "text": "我的",
+        "iconPath": "assets/icons/center.png",
+        "selectedIconPath": "assets/icons/center_active.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

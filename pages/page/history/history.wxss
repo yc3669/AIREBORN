@@ -1,0 +1,9 @@
+/* pages/page/history/history.wxss */
+.icon-box-img {
+  margin-top:100rpx;
+  display:flex;
+  justify-content: center;
+}
+.icon-box-ctn {
+  text-align: center;
+}

@@ -1,0 +1,37 @@
+<view wx:if="{{!openid}}">
+  <image class="resume_bg" mode="scaleToFill" src="/assets/images/resume_bg.png"></image>
+  <button open-type="getUserInfo" lang="zh_CN"
+bindgetuserinfo="onGotUserInfo">登    录</button>
+</view>
+
+<view wx:if="{{openid}}">
+  <view class="avatar-warp">
+    <image class="avatar" mode='aspectFill' src='{{userinfo.avatarUrl}}'></image>
+    <view class="nickname">{{userinfo.nickName}}</view>
+    <view class="article-info">
+      <view class="article-item">
+        <text class="num">183</text>身高cm</view>
+      <view class="article-item">
+        <text class="num">73.4</text>体重kg</view>
+      <view class="article-item">
+        <text class="num">8.6</text>体脂%</view>
+    </view>
+  </view>
+  <view class="menu-warp">
+    <navigator url='http://47.116.5.123'>
+      <image class="icon" src='/assets/icons/shop.jpg'></image>
+      空降小商城
+      <image class="next" src='/assets/icons/next.png'></image>
+    </navigator>
+  </view>
+  <view class="menu-warp">
+    <navigator url='/pages/page/history/history?title=history' hover-class="navigator-hover">
+      <image class="icon" src='/assets/icons/history.jpg'></image>
+      我的空降历史
+      <image class="next" src='/assets/icons/next.png'></image>
+    </navigator>
+  </view>
+  <view class="today-plan">
+    开始今日计划
+  </view>
+</view>

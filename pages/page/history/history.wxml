@@ -1,0 +1,8 @@
+<!--pages/page/history/history.wxml-->
+<view class="icon-box">
+    <icon class="icon-box-img" type="info" size="93"></icon>
+    <view class="icon-box-ctn">
+      <view class="icon-box-title">提示</view>
+      <view class="icon-box-desc">您还没有训练记录哦，返回首页挑选您中意的训练计划吧！</view>
+    </view>
+  </view>
